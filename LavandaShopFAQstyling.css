@@ -1,0 +1,23 @@
+/*font style of Headings*/
+@font-face {
+    font-family: Bree_Serif;
+    src: url(fonts/BreeSerif-Regular.ttf);
+}
+/*font style for paragraphs*/
+@font-face {
+    font-family: Urbanist;
+    src: url(fonts/Urbanist-VariableFont_wght.ttf);
+}
+/*font styling*/
+h1,h2,h3 {
+    font-family: 'Bree_Serif', 'georgia', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+     font-family: 'Urbanist', 'georgia', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #faf9f6;
+}
+.collapse {
+    display: none;
+}
